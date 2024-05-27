@@ -12,6 +12,7 @@ df = df.loc[(df["Area"] < 350) & (df["Price"] < 3e6)]
 areas = df["Area"].to_numpy()  # Save area as a numpy array
 prices = df["Price"].to_numpy()  # Save price as a numpy array
 
+
 def loss(theta):
     m = len(areas)
     predictions = theta[0] + theta[1] * areas
