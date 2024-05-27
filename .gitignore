@@ -1,0 +1,31 @@
+# Ignore the .idea folder (JetBrains IDEs configuration files)
+.idea/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environment directories
+venv/
+env/
+ENV/
+.virtualenv/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore macOS-specific files
+.DS_Store
+
+# Ignore Windows-specific files
+Thumbs.db
+
+# Ignore temporary files created by the editor
+*.swp
+*.swo
+
+# Ignore log files and other temporary files
+*.log
+*.tmp
+*.bak
+*.old
