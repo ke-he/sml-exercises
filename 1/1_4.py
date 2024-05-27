@@ -1,12 +1,6 @@
-# Very popular packages in the Python ecosystem.
-import numpy as np  # For fast computations on numerical data
-import matplotlib.pyplot as plt  # For visualizations of said data
-import pandas as pd  # For saving/loading data as dataframes (convenience)
-
-# Other
-import sklearn
-import sklearn.linear_model
-from sklearn import preprocessing
+import numpy as np
+import matplotlib.pyplot as plt
+import pandas as pd
 
 """
 We load the amsterdam.csv data set with Pandas and extract the residental price and residental area as a NumPy array.
