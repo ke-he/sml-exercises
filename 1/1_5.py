@@ -30,9 +30,6 @@ def gradient(θ):  # DO NOT CHANGE
 alpha = 1e-4
 num_iters = 1000
 
-X = np.column_stack((np.ones(areas.shape[0]), areas))
-y = prices
-
 thetaGD = np.zeros(2)
 
 
