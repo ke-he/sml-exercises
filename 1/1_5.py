@@ -14,9 +14,8 @@ prices = df["Price"].to_numpy()  # Save price as a numpy array
 
 
 def loss(theta):
-    m = len(areas)
     predictions = theta[0] + theta[1] * areas
-    return (1 / (2 * m)) * np.sum((predictions - prices) ** 2)
+    return np.mean((predictions - prices) ** 2)/2
 
 
 def gradient(θ):  # DO NOT CHANGE
