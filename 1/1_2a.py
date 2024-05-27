@@ -1,12 +1,5 @@
-# Very popular packages in the Python ecosystem.
-import numpy as np  # For fast computations on numerical data
-import matplotlib.pyplot as plt  # For visualizations of said data
-import pandas as pd  # For saving/loading data as dataframes (convenience)
-
-# Other
-import sklearn
-import sklearn.linear_model
-from sklearn import preprocessing
+import matplotlib.pyplot as plt
+import numpy as np
 
 """
 We load the SignMNIST dataset, which contains hand gestures of letters from the American Sign Language. 
