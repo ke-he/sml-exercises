@@ -29,3 +29,7 @@ Thumbs.db
 *.tmp
 *.bak
 *.old
+
+# Ignore all .npy files
+*.npy
+!digits.npy
