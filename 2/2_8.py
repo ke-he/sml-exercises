@@ -91,6 +91,9 @@ for _λ in lambda_values:
 print("λ_min:", λ_min)
 print("λ_max:", λ_max)
 
+print("the loss at λ_min is:", loss(optimalθ(λ_min), x_test, y_test, λ_min))
+print("the loss at λ_max is:", loss(optimalθ(λ_max), x_test, y_test, λ_max))
+
 ### AUTOMATIC TESTS
 
 print('Here we test if the results of `loss` are plausible. What happens for λ=0?')
