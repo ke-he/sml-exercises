@@ -132,7 +132,7 @@ TRAINING - This might take some time! We train for 20 epochs!
 We will split the data into 20 parts, by splitting the indices with np.split.
 '''
 print('Initial loss:', loss(θ, x_train, y_train))  # The loss should decrease over time
-for e in range(20):  # We train for 20 epochs
+for e in range(160):  # We train for 20 epochs | turn up epochs to 160 for better results (>90% accuracy)
     for idx in np.array_split(indices, 20):  # idx are roughly 1/20 of all indices.
         x, y = x_train[idx], y_train[idx]
         # Here you update θ with gradient descent inside this loop.
