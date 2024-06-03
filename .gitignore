@@ -33,3 +33,6 @@ Thumbs.db
 # Ignore all .npy files
 *.npy
 !digits.npy
+!classifier_test_solution.npy
+!logistic_test_solution.npy
+!loss_test_solution.npy
